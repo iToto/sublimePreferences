@@ -1,25 +1,25 @@
 <snippet>
-	<content><![CDATA[
+    <content><![CDATA[
 /**
-*	\brief ${1:brief}
+*   \brief ${1:brief}
 *
-*	    ${2:description}
+*       ${2:description}
 *
-*	\author Salvatore D'Agostino Mira Geoscience Ltd
-*	\date  ${3:date}
-*	\param ${4:paramName}	${5:paramDescription}
-*	\param ${6:paramName}	${7:paramDescription}
+*   \author Salvatore D'Agostino Mira Geoscience Ltd
+*   \date  ${3:date}
+*   \param ${4:paramName}   (${5:TYPE})   ${6:paramDescription}
+*   \param ${7:paramName}   (${8:TYPE})   ${9:paramDescription}
 *
-*	\return ${8:return}
+*   \return (${10:TYPE}) ${11:return}
 **/
-${9:public} function ${1}(\$${4},\$${6})
+${12:public} function ${1}(\$${4},\$${7})
 {
-	# ${10:code}
+    # ${13:code}
 
 }// END function ${1}
 ]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>dox</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<!-- <scope>source.python</scope> -->
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>dox</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
 </snippet>
