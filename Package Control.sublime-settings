@@ -1,0 +1,13 @@
+{
+	"installed_packages":
+	[
+		"BracketHighlighter",
+		"Gist",
+		"Git",
+		"GitGutter",
+		"Package Control",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
+		"SublimeLinter"
+	]
+}

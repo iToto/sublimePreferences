@@ -1,16 +1,16 @@
-sublimePreferences
-==================
 
 These are my custom preferences for Sublime Text 2.
 
 ## Installation
 
-Place files in the following directories for each Operating System:
+clone the repository to wherever Sublime Text puts its snippets
 
-
+    git clone git@github.com:Boumbles/sublime-snippets.git snippetfolder
 
 ### Mac:
 
 ### Linux:
 
-### Windows:
+### Windows: git@github.com:Boumbles/sublimePreferences.git
+
+> if you know where to put the snippets on another OS please do a pull request with the right location :) 
