@@ -1,13 +1,27 @@
 {
 	"installed_packages":
 	[
+		"Alignment",
 		"BracketHighlighter",
+		"CUDA C++",
+		"DocBlockr",
 		"Gist",
 		"Git",
+		"Git Config",
 		"GitGutter",
+		"Github Tools",
+		"Gitignore",
+		"Markdown Preview",
+		"MSBuild",
+		"Open URL",
 		"Package Control",
+		"Search Stack Overflow",
 		"SideBarEnhancements",
+		"SideBarGit",
+		"SublimeBlockCursor",
 		"SublimeCodeIntel",
-		"SublimeLinter"
+		"SublimeLinter",
+		"SyncedSideBar",
+		"Theme - Soda"
 	]
 }
