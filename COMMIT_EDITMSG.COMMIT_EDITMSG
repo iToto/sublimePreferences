@@ -1,0 +1,62 @@
+adding todo info
+
+# --------------
+# Please enter the commit message for your changes. Everything below
+# this paragraph is ignored, and an empty message aborts the commit.
+# Just close the window to accept your message.
+diff --git a/Preferences.sublime-settings b/Preferences.sublime-settings
+index 6fca3c5..7d5a880 100644
+--- a/Preferences.sublime-settings
++++ b/Preferences.sublime-settings
+@@ -1,23 +1,30 @@
+ {
+-"ignored_packages":
+-[
+-],
+-
+-"font_size": 10,
+-"font_face" : "Ubuntu Mono",
+-
+-
+-"draw_white_space": "all",
+-"highlight_line": true,
+-
+-"rulers": [100],
+-
+-"bold_folder_labels": true,
+-
+-"tab_size": 4,
+-"translate_tabs_to_spaces": true,
+-"trim_trailing_white_space_on_save": true,
+-
+-"vintage_ctrl_keys": true,
+-"vintage_start_in_command_mode": true
++    "bold_folder_labels": true,
++    "draw_white_space": "all",
++    "font_face": "Ubuntu Mono",
++    "font_size": 8,
++    "highlight_line": true,
++    "find_selected_text": true,
++    "ignored_packages":
++    [
++    ],
++    "rulers":
++    [
++        100
++    ],
++    "tab_size": 4,
++    "translate_tabs_to_spaces": true,
++    "trim_trailing_white_space_on_save": true,
++    "vintage_ctrl_keys": true,
++    "vintage_start_in_command_mode": true,
++    "todo": {
++        "case_sensitive":true,
++        "patterns": {
++            "TODO" : "TODO[\\s]*?:+(?P<todo>.*)$",
++            "NOTE" : "NOTE[\\s]*?:+(?P<note>.*)$",
++            "FIXME" : "FIX ?ME[\\s]*?:+(?P<fixme>\\S.*)$",
++            "CHANGED": "CHANGED[\\s]*?:+(?P<changed>\\S.*)$"
++        },
++        "result_title":"List Of Tasks"
++    }
+ }
