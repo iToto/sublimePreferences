@@ -1,21 +1,21 @@
 {
 	"bold_folder_labels": true,
 	"caret_style": "phase",
-	"color_scheme": "Packages/Dayle Rees Color Schemes/Github.tmTheme",
+	"color_scheme": "Packages/Theme - Nil/Big Duo.tmTheme",
 	"detect_slow_plugins": false,
 	"draw_white_space": "all",
 	"fade_fold_buttons": true,
 	"find_selected_text": true,
 	"font_face": "Ubuntu Mono",
 	"font_size": 9,
-	"show_minimap": false,
 	"highlight_line": true,
 	"ignored_packages":
 	[
 		"Vintage",
 		"Indent XML",
 		"Markdown Preview",
-		"SyncedSideBar"
+		"SyncedSideBar",
+		"SublimeBlockCursor"
 	],
 	"reveal-on-activate": true,
 	"rulers":
@@ -23,9 +23,10 @@
 		80,
 		120
 	],
+	"show_minimap": false,
 	"spell_check": true,
 	"tab_size": 4,
-	"theme": "Reeder.sublime-theme",
+	"theme": "Soda Light.sublime-theme",
 	"todo":
 	{
 		"case_sensitive": true,
