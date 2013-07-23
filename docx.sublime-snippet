@@ -1,16 +1,16 @@
 <snippet>
     <content><![CDATA[
 /**
-*   \brief ${1:brief}
+*   @brief ${1:brief}
 *
 *       ${2:description}
 *
-*   \author Salvatore D'Agostino Mira Geoscience Ltd
-*   \date  ${3:date}
-*   \param ${4:paramName}   (${5:TYPE})   ${6:paramDescription}
-*   \param ${7:paramName}   (${8:TYPE})   ${9:paramDescription}
+*   @author Salvatore D'Agostino Mira Geoscience Ltd
+*   @date  ${3:date}
+*   @param ${4:paramName}   (${5:TYPE})   ${6:paramDescription}
+*   @param ${7:paramName}   (${8:TYPE})   ${9:paramDescription}
 *
-*   \return (${10:TYPE}) ${11:return}
+*   @return (${10:TYPE}) ${11:return}
 **/
 ${12:public} function ${1}(\$${4},\$${7})
 {
