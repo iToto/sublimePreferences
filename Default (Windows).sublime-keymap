@@ -10,5 +10,6 @@
 { "keys": ["ctrl+f5", "ctrl+u"], "command": "insert_date", "args": {"format": "%x %X %Z", "tz_out": "UTC"} },
 // Prompt for user input, "format" would behave as default text
 // and insert the datetime using that format string
-{ "keys": ["alt+f5"],            "command": "insert_date", "args": {"prompt": true} }
+{ "keys": ["alt+f5"],            "command": "insert_date", "args": {"prompt": true} },
+{ "keys": ["ctrl+k","ctrl+s"],   "command": "expand_tabs", "args" : {"set_translate_tabs" : true} }
 ]
