@@ -17,5 +17,6 @@
 { "keys": ["ctrl+k","ctrl+g","ctrl+c"],   "command": "git_commit" },
 { "keys": ["ctrl+k","ctrl+g","ctrl+a"],   "command": "git_add_choice" },
 { "keys": ["ctrl+k","ctrl+g","ctrl+q"],   "command": "git_quick_commit" },
-{ "keys": ["ctrl+k","ctrl+g","ctrl+p"],   "command": "git_push_current_branch" }
+{ "keys": ["ctrl+k","ctrl+g","ctrl+p"],   "command": "git_push_current_branch" },
+{ "keys": ["ctrl+k","ctrl+g","ctrl+s"],   "command": "git_status" }
 ]
