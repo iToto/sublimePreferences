@@ -1,4 +1,5 @@
 {
+	"auto_upgrade_last_run": null,
 	"installed_packages":
 	[
 		"Alignment",
@@ -7,6 +8,7 @@
 		"Clipboard History",
 		"CodeIgniter Snippets",
 		"Color Schemes by carlcalderon",
+		"Commitment",
 		"CUDA C++",
 		"Dayle Rees Color Schemes",
 		"Dictionaries",
@@ -27,6 +29,8 @@
 		"Jade",
 		"Jade Snippets",
 		"JavaScript Snippets",
+		"jQuery",
+		"Laravel 4 Artisan",
 		"Laravel 4 Snippets",
 		"Laravel Blade Highlighter",
 		"Laravel Bootstrapper Snippets",
@@ -51,7 +55,6 @@
 		"SideBarGit",
 		"sublime-github",
 		"SublimeBlockCursor",
-		"SublimeCodeIntel",
 		"sublimelint",
 		"SublimeLinter",
 		"SublimeRope",
