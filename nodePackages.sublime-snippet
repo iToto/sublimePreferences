@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+{
+  "name": "${1:Project Name}",
+  "description": "${2:Project Description}",
+  "author": "Sam D'Agostino <sdagostino@me.com>",
+  "dependencies": {
+    "${3:module name}": ">= ${4:Vesion}",
+  },
+    "engine": "node ${5:Node Version}"
+}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>nodePackages</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.json</scope>
+</snippet>
