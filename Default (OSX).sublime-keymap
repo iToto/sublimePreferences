@@ -1,9 +1,12 @@
 [
+// Spaces
+{ "keys": ["ctrl+k","ctrl+s"],   "command": "expand_tabs", "args" : {"set_translate_tabs" : true} },
 // Git
 { "keys": ["super+k","super+g","super+c"],   "command": "git_commit" },
 { "keys": ["super+k","super+g","super+a"],   "command": "git_add_choice" },
 { "keys": ["super+k","super+g","super+q"],   "command": "git_quick_commit" },
 { "keys": ["super+k","super+g","super+p"],   "command": "git_push_current_branch" },
-{ "keys": ["super+k","super+g","super+s"],   "command": "git_status" }
+{ "keys": ["super+k","super+g","super+s"],   "command": "git_status" },
+{ "keys": ["super+k","super+g","super+b"],   "command": "git_branch" }
 
 ]
