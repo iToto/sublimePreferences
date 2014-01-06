@@ -1,44 +1,61 @@
 {
-    "bold_folder_labels": true,
-    "caret_style": "phase",
-    "color_scheme": "Packages/Dayle Rees Color Schemes/Lavender.tmTheme",
-    "detect_slow_plugins": false,
-    "draw_white_space": "all",
-    "fade_fold_buttons": true,
-    "find_selected_text": true,
-    "font_face": "Ubuntu Mono",
-    "font_size": 9,
-    "highlight_line": true,
-    "ignored_packages":
-    [
-        "SublimeBlockCursor",
-        "Vintage",
-        "Indent XML",
-        "Markdown Preview",
-        "SyncedSideBar"
-    ],
-    "reveal-on-activate": true,
-    "rulers":
-    [
-        80,
-        120
-    ],
-    "show_minimap": true,
-    "spell_check": true,
-    "tab_size": 4,
-    "theme": "Soda Light.sublime-theme",
-    "todo":
-    {
-        "case_sensitive": true,
-        "patterns":
-        {
-            "CHANGED": "CHANGED[\\s]*?:+(?P<changed>\\S.*)$",
-            "FIXME": "FIXME[\\s]*?:+(?P<fixme>\\S.*)$",
-            "NOTE": "NOTE[\\s]*?:+(?P<note>.*)$",
-            "TODO": "TODO[\\s]*?:+(?P<todo>.*)$"
-        },
-        "result_title": "List Of Tasks"
-    },
-    "translate_tabs_to_spaces": true,
-    "trim_trailing_white_space_on_save": true
+	"bold_folder_labels": true,
+	"caret_style": "phase",
+	"color_scheme": "Packages/Dayle Rees Color Schemes/TronLight.tmTheme",
+	"detect_slow_plugins": false,
+	"draw_white_space": "all",
+	"fade_fold_buttons": true,
+	"find_selected_text": true,
+	"font_face": "Menlo",
+	"font_size": 10.0,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"Theme - Pseudo OSX",
+		"Theme - Nexus",
+		"Summerfruit Color Scheme",
+		"Vintage",
+		"Theme - Aqua",
+		"WebExPert - ColorScheme",
+		"SublimeBlockCursor",
+		"Theme - Night",
+		"Theme - Refined",
+		"Theme - Nil",
+		"Twitter Bootstrap Snippets",
+		"Theme - Refresh",
+		"Theme - Reeder",
+		"Theme - Flatland",
+		"xml-guesser",
+		"SyncedSideBar",
+		"Markdown Preview",
+		"Indent XML",
+		"Tomorrow Color Schemes",
+		"Theme - Soda",
+		"Theme - Farzher",
+		"Wombat Theme",
+		"Theme - Phoenix"
+	],
+	"reveal-on-activate": true,
+	"rulers":
+	[
+		80,
+		120
+	],
+	"show_minimap": true,
+	"spell_check": true,
+	"tab_size": 4,
+	"todo":
+	{
+		"case_sensitive": true,
+		"patterns":
+		{
+			"CHANGED": "CHANGED[\\s]*?:+(?P<changed>\\S.*)$",
+			"FIXME": "FIXME[\\s]*?:+(?P<fixme>\\S.*)$",
+			"NOTE": "NOTE[\\s]*?:+(?P<note>.*)$",
+			"TODO": "TODO[\\s]*?:+(?P<todo>.*)$"
+		},
+		"result_title": "List Of Tasks"
+	},
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true
 }
